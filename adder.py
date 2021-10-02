@@ -93,7 +93,7 @@ for user in users:
     try:
         print("Adding {}".format(user['id']))
         if mode == 1:
-            if user['username'] == "":
+            if user['username1'] == "":
                 continue
             user_to_add = client.get_input_entity(user['username'])
         elif mode == 2:
