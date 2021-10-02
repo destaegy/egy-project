@@ -104,7 +104,7 @@ for user in users:
         print("Waiting for 60-180 Seconds...")
         time.sleep(random.randrange(0, 5))
     except PeerFloodError:
-        print("Getting Flood Error from telegram. Script is stopping now. Please try again after  time.")
+        print("Getting Flood Error from telegram. Script is stopping now. Please try again aftert  time.")
         print("Waiting {} seconds".format(SLEEP_TIME_2))
         time.sleep(SLEEP_TIME_2)
     except UserPrivacyRestrictedError:
