@@ -26,7 +26,7 @@ phone = '+923099380866'   #Enter Your Mobilr Number With Country Code.
 client = TelegramClient(phone, api_id, api_hash)
 async def main():
     # Now you can use all client methods listed below, like for example...
-    await client.send_message('me', 'Hello !!!!!')
+    await client.send_message('me', 'Hellso !!!!!')
 
 
 SLEEP_TIME_1 = 100
